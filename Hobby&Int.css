@@ -1,0 +1,49 @@
+h1 {
+    font-size: 250%;
+    background-color: #8e5122;
+}
+
+.OA, .IA {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+section {
+    font-size: 110%;
+}
+
+dt {
+    font-size: 135%;
+    font-weight: bold;
+}
+
+body {
+    background-color: #c7934e;
+    font: 1em sans-serif;
+}
+
+hr {
+    background-color: #8e5122;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    transition: transform 0.3s, background-color 0.3s, width 0.3s;
+    border-radius: 20px;
+    background-color: #d7a96d;
+    flex: 1;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: beige;
+    cursor: pointer;
+}
